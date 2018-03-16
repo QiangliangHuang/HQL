@@ -1,0 +1,2 @@
+# HQL
+HQL's memorandum 
