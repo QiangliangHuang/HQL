@@ -1,2 +1,12 @@
 stardict
     http://blog.csdn.net/huyisu/article/details/53437931
+    
+搜狗输入法，命令行模式
+    /etc/apt/sources.list文件是ubuntu中的源配置文件
+    sudo vim /etc/apt/sources.list可以添加源
+    例如添加搜狗拼音的源，只需在/etc/apt/sources.list的后面加上下面的一句即可
+    deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main
+    sudo apt-get update
+    sudo apt-get install sogoupinyin
+    就可以完成搜狗拼音的安装
+    再lock out，记得选fcitx模式重新登录后就有了，
