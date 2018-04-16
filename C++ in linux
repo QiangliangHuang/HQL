@@ -1,6 +1,0 @@
-需要.h .so .a
-
-1. tensorflow/contrib/makefile目录下，找到build_all_xxx.sh文件并执行，例如准备在linux上使用，
-就执行build_all_linux.sh文件，成功后会出现一个gen文件夹
-
-2.
