@@ -21,4 +21,6 @@ adb shell wifi
 	adb tcpip 5555
 	adb connect "phone ip"
 
+pycharm
+	官网下载社区版，直接解压，运行bin/pycharm.sh，导入电脑里的python,/usr/bin/pythonx.x
 
