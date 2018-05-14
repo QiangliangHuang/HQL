@@ -24,3 +24,5 @@ adb shell wifi
 pycharm
 	官网下载社区版，直接解压，运行bin/pycharm.sh，导入电脑里的python,/usr/bin/pythonx.x
 
+SSH
+	sudo apt-get install openssh-server
