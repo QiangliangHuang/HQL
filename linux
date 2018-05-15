@@ -28,3 +28,9 @@ pycharm
 SSH
 	sudo apt-get install openssh-server
 	检测是否安装：sudo ps -e |grep ssh
+
+Android Studio
+	官网下载
+
+查网速
+	sar -n DEV 1 100
