@@ -10,7 +10,7 @@ stardict
     sudo apt-get install sogoupinyin
     y
     就可以完成搜狗拼音的安装
-    再lock out，记得选fcitx模式重新登录后就有了，
+    选fcitx模式再lock out，重新登录后就有了，
 
 python版本切换
    	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
