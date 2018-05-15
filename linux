@@ -27,3 +27,4 @@ pycharm
 
 SSH
 	sudo apt-get install openssh-server
+	检测是否安装：sudo ps -e |grep ssh
