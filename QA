@@ -3,3 +3,7 @@ Q:
 Installation failed: Command 'sudo -H -E pip3 install  --trusted-host files.pythonhosted.org -r /opt/movidius/NCSDK/requirements.txt' return code=2. Error on line 308 in ./install-utilities.sh.  Will exit 
 A:
 多次make install
+
+Q：
+error: undefined reference to 'pthread_attr_setinheritsched
+A：
