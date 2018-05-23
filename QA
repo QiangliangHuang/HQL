@@ -7,3 +7,4 @@ A:
 Q：
 error: undefined reference to 'pthread_attr_setinheritsched
 A：
+暂时的办法是屏蔽掉两个使用的地方
