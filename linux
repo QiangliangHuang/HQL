@@ -11,6 +11,8 @@ stardict
     y
     就可以完成搜狗拼音的安装
     选fcitx模式再lock out，重新登录后就有了，
+    （安装fcitx命令行方式：）
+    sudo apt-get install fcitx-table-wbpy
 
 python版本切换
    	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
