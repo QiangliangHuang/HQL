@@ -8,3 +8,26 @@ Q：
 error: undefined reference to 'pthread_attr_setinheritsched
 A：
 暂时的办法是屏蔽掉两个使用的地方
+
+Q:
+illegal instruction
+A:
+degrade tensorflow,pip uninstall tensorflow ;pip3 install --user tensorflow==1.5
+
+Q:
+ImportError: cannot import name main when running pip
+A:
+from pip import main
+if __name__ == '__main__':
+    sys.exit(main())
+
+to this:
+
+from pip import __main__
+if __name__ == '__main__':
+    sys.exit(__main__._main())
+
+Q:
+pip : EnvironmentError: [Errno 13] Permission denied:
+A:
+pip install –-user  tensorflow
