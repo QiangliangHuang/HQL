@@ -38,6 +38,5 @@ Android Studio
 		export PATH=$PATH:/home/hql/Android/Sdk/ndk-bundle
 		source ~/.bashrc
 	
-
 查网速
 	sar -n DEV 1 100
