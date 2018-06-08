@@ -33,6 +33,6 @@ A:
 pip install –-user  tensorflow
 
 Q:
-git lock
+apt lock
 A:
 ps aux | grep apt 
