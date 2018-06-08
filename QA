@@ -31,3 +31,8 @@ Q:
 pip : EnvironmentError: [Errno 13] Permission denied:
 A:
 pip install –-user  tensorflow
+
+Q:
+git lock
+A:
+ps aux | grep apt 
