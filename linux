@@ -40,3 +40,6 @@ Android Studio
 	
 查网速
 	sar -n DEV 1 100
+	
+修改键盘
+	sudo vi /usr/share/X11/xkb/symbols/pc
