@@ -43,3 +43,4 @@ Android Studio
 	
 修改键盘
 	sudo vi /usr/share/X11/xkb/symbols/pc
+	重启生效
