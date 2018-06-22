@@ -47,3 +47,6 @@ Android Studio
 
 修改屏幕分辨率
 	https://www.cnblogs.com/eczhou/p/7860555.html
+	
+employeeHotpot
+	设置：加密方式选择REAP，勾选no ca证书，输入账号密码，去掉代理。
