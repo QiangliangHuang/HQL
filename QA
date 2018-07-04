@@ -36,3 +36,5 @@ Q:
 apt lock
 A:
 ps aux | grep apt 
+
+
