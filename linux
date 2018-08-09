@@ -42,7 +42,7 @@ Android Studio
 	sar -n DEV 1 100
 	
 修改键盘
-	sudo vi /usr/share/X11/xkb/symbols/pc
+	sudo gedit /usr/share/X11/xkb/symbols/pc
 	重启生效
 
 修改屏幕分辨率
