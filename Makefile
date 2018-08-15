@@ -32,3 +32,28 @@ main : $(OBJ)
         $(CC) -o $@ $^ $(CXXFLAGS)
 
 M555
+
+EXAMPLE:
+#test:test.cpp cmqtt.cpp cmqtt.h
+#	g++ -o test test.cpp cmqtt.cpp -lpaho-mqtt3cs \
+#	-I ../../paho.mqtt.c/src \
+#	-L ../../paho.mqtt.c/build \
+#	-pthread -Imqtt \
+#	-std=c++11 
+
+CC = g++
+
+test:test.o cmqtt.o
+	$(CC) -o test test.o cmqtt.o -lpaho-mqtt3cs \
+	-L ../../paho.mqtt.c/build \
+	-pthread
+
+test.o: test.cpp cmqtt.h
+	$(CC) -c test.cpp -I ../../paho.mqtt.c/src -Imqtt
+
+cmqtt.o: cmqtt.cpp cmqtt.h
+	$(CC) -c cmqtt.cpp -I ../../paho.mqtt.c/src -Imqtt -std=c++11
+
+.PHONY:clean
+clean: 
+	-rm test *.o
