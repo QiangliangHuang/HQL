@@ -38,3 +38,9 @@ A:
 ps aux | grep apt 
 sudo kill xx
 
+Q:
+employeehotpot
+A:
+Eap
+no ca
+
