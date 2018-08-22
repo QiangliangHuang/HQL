@@ -44,3 +44,16 @@ A:
 PEAP
 no ca
 
+Q:
+R720 wifi 
+A:
+http://tieba.baidu.com/p/5281696783?see_lz=1
+
+sudo apt-get install git build-essential linux-headers-$(uname -r)
+git clone https://github.com/lwfinger/rtlwifi_new.git
+cd rtlwifi_new/
+make
+sudo make install
+
+
+
