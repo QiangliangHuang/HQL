@@ -50,3 +50,7 @@ Android Studio
 	
 employeeHotpot
 	设置：加密方式选择REAP，勾选no ca证书，输入账号密码，去掉代理。
+	
+subl
+	package control： https://packagecontrol.io/installation
+	ｔｅｒｍｉｎａｌ：ｐｅｒｆｅｒｅｎｃｅ　ｐａｃｋａｇｅ　ｃｏｎｔｒｏｌ　然后ｉｎｓｔａｌｌ搜索ｔｅｒｍｉｎａｌ
