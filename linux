@@ -66,4 +66,7 @@ openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out s
 
 ca2pem:openssl x509 -in www.x.com.crt -out www.x.com.pem
 
-
+限制网速
+ sudo apt-get install wondershaper   
+ sudo wondershaper eth0 100 20 （限制eth0网卡下载速度100K，上传速度20K）
+ sudo wondershaper clear eth0   (清除eth0网卡的网速限制）
