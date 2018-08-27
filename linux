@@ -58,15 +58,30 @@ subl
 
 ca
 
-openssl genrsa -des3 -out ca.key 2048
-openssl req -new -x509 -days 3650 -key ca.key -out ca.crt
-openssl genrsa -out server.key 2048
-openssl req -new -out server.csr -key server.key
-openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 3650
+	openssl genrsa -des3 -out ca.key 2048
+	openssl req -new -x509 -days 3650 -key ca.key -out ca.crt
+	openssl genrsa -out server.key 2048
+	openssl req -new -out server.csr -key server.key
+	openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 3650
 
-ca2pem:openssl x509 -in www.x.com.crt -out www.x.com.pem
+	ca2pem:openssl x509 -in www.x.com.crt -out www.x.com.pem
 
 限制网速
- sudo apt-get install wondershaper   
- sudo wondershaper eth0 100 20 （限制eth0网卡下载速度100K，上传速度20K）
- sudo wondershaper clear eth0   (清除eth0网卡的网速限制）
+ 	sudo apt-get install wondershaper   
+ 	sudo wondershaper eth0 100 20 （限制eth0网卡下载速度100K，上传速度20K）
+ 	sudo wondershaper clear eth0   (清除eth0网卡的网速限制）
+
+Typora：
+	# optional, but recommended
+
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+
+	# add Typora's repository
+
+	sudo add-apt-repository 'deb https://typora.io/linux ./'
+
+	sudo apt-get update
+
+	# install typora
+
+	sudo apt-get install typora
